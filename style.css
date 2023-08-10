@@ -1,0 +1,340 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+header{
+    background-image: url('./img/photo_2020-08-09_10-03-19.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+   
+  
+    position: relative;
+    
+
+}
+header div{
+ position: relative;
+ z-index: 2;
+}
+header .bg{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 78.8%, #141414 100%);
+width: 100%;
+z-index: 1;
+
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+
+    
+    color: #FFFFFF;
+    
+
+}
+.burger{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.burger div{
+
+
+    width: 40px;
+    height: 3px;
+   
+    
+    background: #DB3138;
+    
+}
+.burger div:nth-child(2){
+    position: relative;
+    left: -8px;
+}
+.navi{
+    max-width: 1296px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+margin: 0 auto ;
+padding-top: 48px;
+
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:29.94px ;
+    list-style: none
+    ;
+    margin:  5.93px  0 40.93px  0;
+    
+}
+.dots li {
+    width: 10px;
+height: 10px;
+
+background: #DB3138;
+transform: rotate(-45deg);
+
+
+}
+.about_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_us>div{
+    border-top:  1px solid #898989; 
+    border-bottom:  1px solid #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 213px;
+}
+.about_us>div:nth-child(2){
+    border:  1px solid #898989;
+width: 33.34%;
+}
+.o{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+color: #DB3138;
+
+}
+.titler{
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    /* white */
+    
+    color: #FFFFFF;
+    
+}
+
+.info{
+
+
+
+
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    /* accent */
+    
+    color: #DB3138;
+    
+    
+}
+.main_content h1{
+    font-family: 'ReformaGroteskBoldC';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 125%;
+/* identical to box height, or 188px */
+
+text-align: center;
+
+/* accent */
+
+color: #DB3138;
+margin-top: 170px;
+}
+.main_content p{font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    /* or 48px */
+    
+    text-align: center;
+    
+    /* white */
+    margin-top: 40.93px;
+    color: #FFFFFF;}
+    .main_content .btn{
+        font-family: 'ReformaGroteskDemiC';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+display: flex;
+margin: 40px  auto 103px;
+
+/* white */
+padding: 15px 25px 12px;
+position: relative;
+width: max-content;
+color: #FFFFFF;
+    }
+    .main_content .btn div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #DB3138;
+width: 110px;
+z-index: -1;
+    }
+.progress{
+    background-color: #1E1E1E;
+    padding: 180px 0;
+
+}
+.progress .container{
+    max-width: 1296px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+.progress .desc h2{
+    color: var(--white, #FFF);
+
+font-size: 52px;
+font-family: ReformaGroteskDemiC;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 2.6px;
+text-transform: uppercase;
+
+}
+.progress .desc p{
+    color: var(--white, #FFF);
+    /* p / 24m */
+    font-size: 24px;
+    font-family: ReformaGroteskMediumC;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.72px;
+    max-width: 526px;
+}
+.progress .desc .dots{
+margin: 40px 0 60.86px;
+    
+}
+.win{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.win ul{
+    list-style: none;
+}
+.win ul li{border: 1px solid var(--border, #898989);
+    padding: 35px 20px;
+    color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+letter-spacing: 0.8px;
+text-transform: uppercase;
+min-width: 312px;
+font-family: 'ReformaGroteskMediumC';
+box-sizing: border-box;
+}
+.win h3{
+    color: var(--accent, #DB3138);
+text-align: center;
+
+font-family: 'ReformaGroteskDemiC';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+letter-spacing: 1.2px;
+text-transform: uppercase;
+margin-bottom: 22px;
+
+
+}
+.win h3 span{
+    font-size: 52px;
+    letter-spacing: 2.6px;
+
+}
+.win ul:last-child{
+    margin-top: 40px;
+}
+.multiple-items .card{
+max-width: 416px;
+color: var(--white, #FFF);
+text-align: center;
+
+
+font-family:'ReformaGroteskDemiC' ;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+letter-spacing: 0.9px;
+text-transform: uppercase;
+}
+.multiple-items .card img{
+    width: 100%;
+
+}
+.multiple-items .card div{
+    position: relative;
+    margin: 0 auto;
+    max-width: 366px;
+
+}
+.multiple-items .card .bg_card{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: var(--accent, #DB3138);
+    height: 70px;
+    z-index: -1;
+}
